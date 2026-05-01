@@ -8,7 +8,7 @@
 public class PracticeProblem {
 
 	public static void main(String args[]) {
-        System.out.println(hasCapital("Hello"));
+        System.out.println(hasCapital("hello"));
 	}
     
     public static Boolean hasCapital(String word) {
@@ -19,7 +19,7 @@ public class PracticeProblem {
     				flag = true;
     			}
     		}
-    	return true;
+    	return flag;
     }
 
     
